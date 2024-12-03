@@ -39,8 +39,9 @@ struct Node* insertLast(struct Node* head,int data){
     }
     temp->next=node;
     node->next=NULL;
-    return head;
     size++;
+    return head;
+    
 }
 //Here we insert a value at a particular index
 struct Node* insert(struct Node* head,int position,int data){
@@ -74,7 +75,10 @@ void display(struct Node* head){
 }
 //The following function is used to delete a element at a particular index
 struct Node* delete(struct Node*head,int position){
-    if(position==0)return head->next;
+    if(position==0){
+        size--;
+        return head->next;
+        }
   struct Node* temp=head;
   while(position>0){
       temp=temp->next;
@@ -84,6 +88,7 @@ struct Node* delete(struct Node*head,int position){
   struct Node* next=temp->next;
   pre->next=next;
   next->pre;
+  size--;
   return head;
   
 }
