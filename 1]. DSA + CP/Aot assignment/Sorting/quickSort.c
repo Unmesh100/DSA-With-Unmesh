@@ -1,6 +1,6 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
-int swaps=0;
+
 int comparisons=0;
 int partitions(int arr[],int n,int low,int high){
     int pivot=arr[high];
@@ -11,7 +11,7 @@ int partitions(int arr[],int n,int low,int high){
         
         if(arr[j]<pivot){
             comparisons++;
-            swaps++;
+            
             i++;
             int temp=arr[i];
             arr[i]=arr[j];

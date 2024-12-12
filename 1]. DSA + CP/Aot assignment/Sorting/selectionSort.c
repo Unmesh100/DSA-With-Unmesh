@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 void SelectionSort(int arr[],int n){
     int switched=0;
