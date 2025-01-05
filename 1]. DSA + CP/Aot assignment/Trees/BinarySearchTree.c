@@ -91,7 +91,7 @@ void countNodes(struct BST* root){
     printf("The total no of nodes in the Binary Search Tree is %d",size);
 }
 int main() {
-    printf("Press 1 to insert element in the BST\nPress 2 to do inorder transversal\nPress 3 to do preorder transversal\nPress 4 to do postorder transversal,Press 5 to find an element in the BST\nPress 6 to find the smallest element in the Tree\n Press 7 to get the total no of nodes in the Binary Search Tree\nPress any other key to exit the program->\n");
+    printf("Press 1 to insert element in the BST\nPress 2 to do inorder transversal\nPress 3 to do preorder transversal\nPress 4 to do postorder transversal\nPress 5 to find an element in the BST\nPress 6 to find the smallest element in the Tree\n Press 7 to get the total no of nodes in the Binary Search Tree\nPress any other key to exit the program->\n");
     struct BST* root=NULL;
     while(1){
         int a;
