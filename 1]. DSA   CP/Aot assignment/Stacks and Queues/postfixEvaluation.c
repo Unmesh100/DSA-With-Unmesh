@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+//Note:peek() and display operation is optional 
 #include <stdio.h>
 #include <stdlib.h>
 #define maxSize 5
